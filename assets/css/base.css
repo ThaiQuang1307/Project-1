@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Roboto&display=swap");
+
+:root {
+  --font: "DM Sans", sans-serif;
+  --color-black-1: black;
+  --color-black-2: #232323;
+  --color-black-hover: #565656;
+  --color-black-text: #bbbbbb;
+  --color-button-1: #f7d9c4;
+  --color-button-2: #464646;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  font-family: var(--font);
+}
+
+a {
+  text-decoration: none;
+}
+
+.header-h3 {
+  color: #777777;
+  font-size: 18px;
+  margin: 0 0 16px;
+  font-weight: bold;
+}
+
+.header-h2 {
+  color: #232323;
+  font-size: 60px;
+  margin: 0 0 32px;
+  font-weight: bold;
+}
+
+.header-5 {
+  font-size: 26px;
+  color: #1b2026;
+  font-weight: bold;
+  margin: 0 0 8px;
+  line-height: 1.5;
+}
+
+.header-6 {
+  font-size: 16px;
+  color: #777777;
+  line-height: 1.5;
+  font-weight: 300;
+}
+
+ul li {
+  list-style: none;
+}
+
+.button {
+  color: white;
+  border: 2px solid white;
+  padding: 18px 42px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 550;
+  line-height: 1.5;
+  transition: all 0.3s ease-in-out;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.button-main {
+  background: var(--color-button-1);
+  color: var(--color-black-1);
+  border: var(--color-button-1);
+}
+
+.button-main:hover {
+  background: white;
+  border: white;
+}
+
+.button-outline-main {
+  border-color: var(--color-button-2);
+}
+
+.button-outline-main:hover {
+  background: var(--color-button-1);
+  color: var(--color-black-1);
+  border: var(--color-button-1);
+}
+
+.button-black-1 {
+  background-color: var(--color-black-2);
+  border-color: var(--color-black-2);
+  color: white;
+  cursor: pointer;
+}
+
+.button-black-1:hover {
+  background-color: black;
+  border-color: black;
+}
+
+.text {
+  color: #777777;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+@media (max-width: 575px) {
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+/*  */
+
+@media (max-width: 991.98px) {
+  .header-h2 {
+    font-size: 48px;
+  }
+}
+
+@media (max-width: 767.98px) {
+}
+
+@media (max-width: 575.98px) {
+  .header-h2 {
+    font-size: 40px;
+  }
+}
